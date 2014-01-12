@@ -1,0 +1,16 @@
+{
+  "name": "crypto-hashing",
+  "version": "0.1.0",
+  "description": "Easy interfaces for cryptographic hash functions",
+  "keywords": [
+    "cryptography",
+    "hashing"
+  ],
+  "main": "./lib/hashing.js",
+
+  "dependencies": {
+    "binstring": "0.1.x",
+  },
+
+  "author": "Brooks Boyd <boydb@midnightdesign.ws>"
+}
