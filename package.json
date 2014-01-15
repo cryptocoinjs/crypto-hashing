@@ -11,6 +11,9 @@
   "dependencies": {
     "binstring": "0.2.x"
   },
+  "devDependencies": {
+    "mocha": "1.*"
+  },
 
   "author": "Brooks Boyd <boydb@midnightdesign.ws>"
 }
