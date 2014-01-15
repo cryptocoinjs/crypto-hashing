@@ -9,7 +9,7 @@
   "main": "./lib/hashing.js",
 
   "dependencies": {
-    "binstring": "0.1.x",
+    "binstring": "0.2.x"
   },
 
   "author": "Brooks Boyd <boydb@midnightdesign.ws>"
