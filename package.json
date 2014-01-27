@@ -15,5 +15,9 @@
     "mocha": "1.*"
   },
 
+  "repository": {
+    "url": "https://github.com/cryptocoinjs/crypto-hashing",
+    "type": "git"
+  },
   "author": "Brooks Boyd <boydb@midnightdesign.ws>"
 }
