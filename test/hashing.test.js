@@ -47,7 +47,16 @@ describe('Hashing library', function() {
     });
     it('should output a byte array', function() {
       assert.equal(hash.sha256.x2('0102030405', {in:'hex', out:'bytes'}).join(','), '162,107,175,90,154,7,217,235,123,161,15,67,146,77,205,243,247,95,10,191,6,108,217,240,199,111,152,49,33,48,46,1');
-    })
+    });
+    it('should calculate genesis block', function() {
+    var genesis = '01000000'+ // version
+      '0000000000000000000000000000000000000000000000000000000000000000'+ // previous block
+      '3ba3edfd7a7b12b27ac72c3e67768f617fc81bc3888a51323a9fb8aa4b1e5e4a'+ // merkle root
+      '29ab5f49'+ // timestamp
+      'ffff001d'+ // difficulty
+      '1dac2b7c'; // nonce
+      assert.equal(hash.sha256.x2(genesis, {in:'hex'}).toString('hex'), '6fe28c0ab6f1b372c1a6a246ae63f74f931e8365e15a089c68d6190000000000');
+    });
   });
   describe('SHA512()', function() {
     it('should hash byte array', function() {
