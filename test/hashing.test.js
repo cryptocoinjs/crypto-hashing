@@ -105,4 +105,14 @@ describe('Hashing library', function() {
       assert.equal(hash.ripemd160('0102030405', {in:'hex', out:'bytes'}).join(','), '235,130,92,75,36,244,37,7,122,6,124,195,190,244,87,120,63,90,215,5');
     })
   });
+
+  describe('+ sha256ripe160()', function() {
+    it('should perform the sha256 and then the ripemd 160', function() {
+      //taken from: http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript
+      var inHex = "04d0988bfa799f7d7ef9ab3de97ef481cd0f75d2367ad456607647edde665d6f6fbdd594388756a7beaf73b4822bc22d36e9bda7db82df2b8b623673eefc0b7495";
+      var outHex = "3c176e659bea0f29a3e9bf7880c112b1b31b4dc8";
+
+      assert.equal(hash.sha256ripe160(inHex, {in: 'hex', out: 'hex'}), outHex);
+    })
+  })
 });
