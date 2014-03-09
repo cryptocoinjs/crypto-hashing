@@ -1,6 +1,6 @@
 {
   "name": "crypto-hashing",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Easy interfaces for cryptographic hash functions",
   "keywords": [
     "cryptography",
