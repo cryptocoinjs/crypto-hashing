@@ -7,14 +7,13 @@
     "hashing"
   ],
   "main": "./lib/hashing.js",
-
   "dependencies": {
     "binstring": "0.2.x"
   },
   "devDependencies": {
-    "mocha": "1.*"
+    "mocha": "1.*",
+    "mochify": "~0.4.2"
   },
-
   "repository": {
     "url": "https://github.com/cryptocoinjs/crypto-hashing",
     "type": "git"
