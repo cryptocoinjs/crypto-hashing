@@ -24,3 +24,6 @@ console.log(hash.ripemd160('hello'));
 ## Test
 
 Unit tests are written in [Mocha](http://visionmedia.github.io/mocha/). To run the test suite, install mocha either by installing it globally or installing the development dependencies with NPM. Then, from within the project's folder run `mocha`.
+
+
+
