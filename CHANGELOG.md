@@ -1,3 +1,7 @@
+0.3.1 / 2014-04-19
+------------------
+* made `options` for `sha256ripe160()` optional
+
 0.3.0 / 2014-03-09
 ------------------
 * added browser testing support
