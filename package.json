@@ -1,6 +1,6 @@
 {
   "name": "crypto-hashing",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Hash functions for bitcoin and other cryptocurrencies",
   "keywords": [
     "hash160",
